@@ -71,11 +71,3 @@ if not st.session_state['data'].empty:
 else:
     st.info("Ainda não existem entradas registadas.")
 
-# Rodar com: streamlit run nome_do_arquivo.py
-
-    
-    st.subheader(f"Saldo Total: {saldo_total:.2f}")
-else:
-    st.info("Ainda não existem entradas registadas.")
-
-# Rodar com: streamlit run nome_do_arquivo.py
